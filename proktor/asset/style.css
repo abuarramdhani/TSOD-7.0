@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: calibri;
+    overflow: hidden;
+}
+
+.login_left {
+    display: inline-block;
+    background: url("img/img.png")no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+}
+
+.login_right {
+    display: inline-block;
+    background: #fff;
+    height: 100vh;
+    width: 49%;
+    vertical-align: top;
+}
+
+.title_login {
+    font-weight: lighter;
+    font-family: calibri;
+    color: #6a6a6a;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.title_desk {
+.title_desk {
+.title_desk {
+    font-weight: lighter;
+    font-family: calibri;
+    color: #838383;
+    font-size: 16px;
+    text-align: left;
+}.title_desk {
+    font-weight: lighter;
+    font-family: calibri;
+    color: #838383;
+    font-size: 16px;
+    text-align: left;
+}
+
+.countainer_login_right {
+    padding: 50px;
+    margin-top: 25vh;
+}
+
+.nputan_user {
+    padding: 5px;
+    border: 0px;
+    width: 30%;
+    float: left;
+    outline: none;
+    color: #585858;
+    border-bottom: 1px solid #cbcbcb;
+}
+.nputan_pw {
+    padding: 5px;
+    border: 0px;
+    width: 60%;
+    outline: none;
+    float: right;
+    color: #585858;
+    background: #eceef8;
+    margin-left: 20px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.inputan_login {
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.inputan_login2 {
+    width:100%;
+    padding-top: 60px;
+}
+
+.btn_login {
+    padding: 10px 15px 10px 15px;
+    background: #32c4d3;
+    border: 0px;
+    color: #fff;
+    font-size: 10px;
+    border-top: 1px solid #52a5a9;
+    float: right;
+    border-bottom: 1px solid #52a5a9;
+}
+
+.akses0 {
+    font-size: 12px;
+    font-family: calibri;
+    color: #a8a8a8;
+    float: left;
+}
+
+.title_patching {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 20%;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.alt_patching {
+    margin-left: 20%;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.box_patching {
+    width: 60%;
+    margin-left:20%;
+    background: #f4f4f4;
+    padding: 2px;
+    border: 1px solid #b4b2b3;
+}
+
+.menu_ptch1 {
+    background: #fff;
+    border-top: 1px solid #b4b2b3;
+    border-left: 1px solid #b4b2b3;
+    border-bottom: 5px solid #fff;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 15px;
+    color: #333;
+    padding: 5px 10px 5px 10px;
+}
+.menu_ptch {
+    margin-left: -5px;
+    border-top: 1px solid #b4b2b3;
+    border-bottom: 1px solid #b4b2b3;
+    border-left: 1px solid #b4b2b3;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(to top, #dcdcde, #ebebed);
+    font-size: 15px;
+    color: #333;
+    padding: 5px 10px 5px 10px;
+}
+.menu_ptch2 {
+    margin-left: -5px;
+    border-bottom: 1px solid #b4b2b3;
+    border-top: 1px solid #b4b2b3;
+    border-right: 1px solid #b4b2b3;
+    border-left: 1px solid #b4b2b3;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 15px;
+    color: #333;
+    background: linear-gradient(to top, #dcdcde, #ebebed);
+    padding: 5px 10px 5px 10px;
+}
+
+.isi_patching {
+    border-left: 1px solid #b4b2b3;
+    border-right: 1px solid #b4b2b3;
+    border-top: 1px solid #b4b2b3;
+    border-bottom: 1px solid #b4b2b3;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: #fff;
+    margin-top: -5px;
+}
+
+.box_left_patcing {
+    display: inline-block;
+    width: 100%;
+}
+
+.box_right_patcing {
+    float: right;
+    display: inline-block;
+}
+
+.countainer_patching {
+    background: #eeeeee;
+    padding-bottom: 25px;
+}
+
+.footer_patching {
+    bottom: 0px;
+    height: 100vh;
+    background: #e2e2e2;
+}
+
+.footer_p_patching {
+    font-size: 15px;
+    color: #333;
+    font-family: calibri;
+    padding-top: 10px;
+    margin-left: 20%;
+}
+
+.btn_patch {
+    margin-top: 10px;
+    margin-left: 10px;
+    outline: none;
+    border: 0px;
+    background: #525252;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+}
+
+#myProgress {
+    position: relative;
+    width: 50%;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #ddd;
+}
+
+#myBar {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #f16311;
+}
+
+#label {
+    text-align: right;
+    margin-top:  -2px;
+    margin-right: 10px;
+    line-height: 30px;
+    color: white;
+}
+
+.report_patch {
+    font-size: 13px;
+    color: #7c7c7c;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.alert_patching_done {
+    vertical-align: top;
+    border-radius: 5px;
+    padding:40px 40px 10px 40px; 
+    margin-top: -90px;
+    background: #46b245;
+    margin-right: 50px;
+    font-size: 20px;
+    color: #fff;
+}

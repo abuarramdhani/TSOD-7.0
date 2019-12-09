@@ -1,0 +1,394 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: calibri;
+    overflow-x: hidden;
+}
+
+.header_dashboard {
+    width: 100vw;
+    height: 60px;
+    background: #2e373e;
+}
+
+.logo_left_dash {
+    height: 100%;
+    float: left;
+    width: 200px;
+    background: url("img/ico.png")no-repeat;
+}
+
+.status_right_dash {
+    float: right;
+    display: inline-block;
+}
+
+.status_text_dash_offline {
+    color: #fd6d6c;
+    font-size: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.status_text_dash_online {
+    color: #6c93fd;
+    font-size: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.status_text_dash_offline {
+    color: #e74c3c;
+    font-size: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.status_text_dash_standby {
+    color: #e7fd6c;
+    font-size: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+
+.body_dash {
+    background: #fefefe;
+    width: 100vw;
+    min-height: 72vh;
+}
+
+.cut_footer {
+    width: 100vw;
+    height: 15px;
+    background: #2e373e;
+    
+}
+
+.text_footer_dash {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.status_link_dash {
+    color: #2e373e;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 12px 0px 12px 15px;
+    border-bottom: 1px solid #ddd6d6;
+}
+
+.header_body_dash {
+    width: 100vw;
+    height: 50px;
+}
+
+.menu_left {
+    color: #333;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.left_nav_dash {
+    border: 1px solid #ddd6d6;
+    width: 200px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.content_right_all {
+    display: inline-block;
+    width: 100%-210px;
+}
+
+.title_dash_position {
+    border-bottom: 1px solid #ddd6d6;
+    width: 80vw;
+    margin-left: 10px;
+}
+
+.txt_dash_position {
+    color: #2e373e;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 12px 0px 12px 15px;
+}
+
+.status_dash {
+    margin: 10px;
+}
+
+.alert_red {
+    border-collapse: collapse;
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #ffdde3;
+    color: #f56370;
+    padding: 15px;
+}
+.alert_blue {
+    border-collapse: collapse;
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgba(108, 147, 253, 0.26);
+    color: #6c93fd;
+    padding: 15px;
+}
+.alert_yellow {
+    border-collapse: collapse;
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgba(234, 255, 99, 0.58);
+    color: #889830;
+    padding: 15px;
+}
+.tb_daflll {
+    border-collapse: collapse;
+    width: 97%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #35383f;
+    color: #fff;
+    padding: 15px;
+}
+..tb_daftar_peserta {
+    margin-left: 10px;
+    background: #ffdae4;
+    color: #c06a73;
+    padding: 10px;
+}
+
+.server_id {
+    background: #f0f4f7;
+    margin-left: 10px;
+    padding: 25px 0px 20px 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.id_server_red {
+    display: inline-block;
+    background: #f1617a;
+    padding: 0px 10px 0px 10px;
+    color: #fff;
+}
+.id_server_blue {
+    display: inline-block;
+    background: #6c93fd;
+    padding: 0px 10px 0px 10px;
+    color: #fff;
+}
+
+.header_table_sync {
+    padding: 8px;
+    background: #2ab4bf;
+    width: 80vw;
+    text-align: left;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.isi_table_sync {
+    border-bottom: 1px solid #d8d8d8;
+    border-left: 1px solid #3e546c;
+    border-right: 1px solid #d8d8d8;
+    padding: 25px;
+	background-color: red;
+}
+
+#myProgress {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #ddd;
+}
+
+#myBar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #f16311;
+}
+
+#label {
+    text-align: right;
+    margin-top:  -2px;
+    margin-right: 10px;
+    line-height: 30px;
+    color: white;
+}
+
+.data_sync_txt {
+    display: inline-block;
+}
+
+.status_data_sync_txt {
+    display: inline-block;
+    float: right;
+}
+
+.inputan_sync_start {
+    margin-left: 10px;
+    padding: 10px;
+    background: #dcdcdc;
+    border: 0px;
+    color: #646464;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.inputan_sync_refresh {
+    padding: 10px;
+    background: #2f9ade;
+    border: 0px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+}
+
+.tb_sync {
+    margin-left: 10px;
+}
+
+.sourcer {
+    margin-left: 10px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 15px;
+    padding: 10px;
+    width: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #35383f;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: rgba(53, 56, 63, 0.55);
+}
+
+.head_tb_daf {
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    margin-left: -5px;
+    padding: 5px;
+}
+
+.tr_tb_daf {
+}
+
+.btn_daf {
+    display: inline-block;
+    padding: 5px;
+    width: 0px;
+    background: rgba(51, 51, 51, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.input_daftar {
+    display: inline-block;
+    padding: 5px;
+    width: 75%;
+}
+
+.tb_count_daf {
+    width: 100%;
+    padding: 10px;
+}
+
+.label_btn_daf {
+    border: 1px solid #fff;
+    padding: 3px;
+    margin-left: -10px;
+}
+
+.img_daf_inpt {
+    width: 15px;
+}
+.token_saat{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.token_left{
+	display: inline-block;
+	font-weight: bold;
+}
+
+.left_token{
+	display: inline-block;
+}
+.btn_generate{
+	padding:10px 15px 12px 15px;
+	background: #55bdff;
+	margin-top: 20px;
+	border: 0px;
+	margin-left: 50px;
+	color: #fff;
+	width: 150px;
+}
+
+.btn_generate2{
+	padding:10px 15px 12px 15px;
+	background: #c0392b;
+	margin-top: 20px;
+	border: 0px;
+	margin-left: 50px;
+	color: #fff;
+	width: 150px;
+}
+
+.status_left_test{
+	display: inline-block;
+	width: 100px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.status_right_test{
+	display: inline-block;
+}
+.token_status{
+	display: inline-block;
+}
+
+.tng_expired{
+	display: inline-block;
+}
+.inputan_dis{
+	padding: 10px;
+	width: 400px;
+}

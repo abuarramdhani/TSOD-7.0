@@ -1,0 +1,3 @@
+<?Php
+	header ("Location: ../");
+?>
